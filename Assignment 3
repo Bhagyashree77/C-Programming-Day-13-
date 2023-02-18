@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int a,b;
+	printf("enter the cost of subscription:\n");
+	scanf("%d",&a);
+	printf("enter the amount:\n");
+	scanf("%d",&b);
+	printf("no. of subscriptions:%d",(b/a));
+}
